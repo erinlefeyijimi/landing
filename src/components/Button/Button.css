@@ -1,0 +1,11 @@
+.button__wrapper button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border: 3px solid #b941ff;
+  border-radius: 30px;
+  padding: 10px 16px;
+  color: #f8f9fa;
+  transition: all ease-in-out 0.5s;
+}

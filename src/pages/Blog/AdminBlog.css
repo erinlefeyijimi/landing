@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap");
+
+
+.dashboard__blog--wrapper {
+  padding: 50px 80px;
+}
+
+.dashboard__blog--wrapper h2 {
+  font-size: 20px;
+}
+
+.dashboard__blog--child {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.dashboard__blog--contents {
+  /* text-align: center; */
+}
+
+.dashboard__blog--contents h2 {
+  margin-bottom: 15px;
+  font-size: 17px;
+}
+
+.dashboard__blog--contents p {
+  margin-bottom: 15px;
+}
+
+.dashboard__blog--icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+/* .dashboard__home--icon {
+  width: 20px;
+  height: px;
+} */
+
+/* MUI STyling */
+.MuiDataGrid-columnHeaderWrapper {
+  color: #fff;
+  text-align: center !important;
+  justify-content: center !important;
+}
+
+.MuiDataGrid-columnHeaderTitle {
+  text-align: center !important;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+}
+
+.MuiDataGrid-cell--textLeft {
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  color: #fff;
+}
+
+.MuiDataGrid-cell--textRight {
+  justify-content: center !important;
+}
+
+.dashboard__home--icon {
+  width: 18px;
+  height: 18px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.MuiTablePagination-caption {
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+
+}
+
+.MuiIconButton-root {
+  color: #fff !important;
+}
+
+
+@media screen and (max-width: 680px) {
+  .dashboard__blog--wrapper {
+    padding: 40px 20px;
+  }
+
+  .dashboard__blog--child {
+    display: block;
+  }
+
+  .dashboard__blog--contents h2 {
+    font-size: 18px;
+  }
+
+  .dashboard__blog--contents p {
+    margin-bottom: 13px;
+  }
+
+  .dashboard__blog--icon {
+    justify-content: flex-start;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+    .dashboard__blog--wrapper {
+        padding: 40px 20px;
+      }
+
+      .dashboard__blog--child {
+        width: 100%;
+      }
+
+      .dashboard__blog--contents {
+        margin-right: 20px;
+      }
+
+      .dashboard__blog--contents h2 {
+        font-size: 16px;
+      }
+}

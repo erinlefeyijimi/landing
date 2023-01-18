@@ -1,0 +1,131 @@
+.blog__details--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 80px;
+  }
+  
+  .blog__details--cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .blog__details--cover img {
+    width: 68%;
+  }
+  
+  .blog__details--description {
+    margin-top: 60px;
+    text-align: center;
+  }
+  
+  .blog__details--tag span {
+    font-size: 14px;
+    color: #b941ff;
+    font-weight: 500;
+    margin-right: 15px;
+  }
+  
+  .blog__details--title {
+    margin: 20px 0;
+  }
+  
+  .blog__details--title h2 {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  
+  .blog__details--written {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .blog__details--written span {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .blog__details--share {
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .blog__details--content {
+    padding: 10px 15%;
+    color: #fff;
+  }
+  
+  .blog__details--content div p span,
+  .blog__details--content div p strong {
+    line-height: 30px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff !important;
+  }
+
+  .blog__details--content div p strong  {
+    margin-bottom: 30px !important;
+  }
+  
+  #cusdis_thread {
+    border: 1px solid red !important;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* padding: 10px 15%; */
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .blog__details--container {
+      padding: 80px 20px; /* */
+    }
+  
+    .blog__details--cover img {
+      width: 90%; 
+    }
+  
+    .blog__details--description {
+      margin-top: 40px;
+      text-align: center;
+    }
+  
+    .blog__details--title h2 {
+      font-size: 18px;
+      font-weight: 500; 
+    }
+  
+    .blog__details--written {
+      gap: 11px; 
+    }
+  
+    .blog__details--written span {
+      font-size: 13px;
+    }
+  
+    .blog__details--share {
+      margin: 25px 0; 
+      gap: 10px;
+    }
+  
+    .blog__details--content {
+      padding: 10px 2%;
+    }
+  
+    /* .blog__details--content div p {
+      font-size: 13px;
+    } */
+
+    .blog__details--content div p span,
+  .blog__details--content div p strong {
+    line-height: 35px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  }
+

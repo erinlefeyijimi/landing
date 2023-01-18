@@ -1,0 +1,389 @@
+.auth__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 80px 150px;
+  background: #fff;
+  color: #000;
+}
+
+/* .admin__background {
+  background-color: #ccc;
+} */
+
+.auth__container h2 {
+  font-size: 25px;
+  color: #000;
+}
+
+.auth__form {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.auth__divide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 15px;
+}
+
+.auth__input {
+  width: 60%;
+  margin-bottom: 30px;
+}
+
+
+.auth__input--big {
+  width: 60%;
+  margin-bottom: 0;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 13px;
+  margin: 10px 0;
+  outline: none;
+  resize: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  color: #000;
+}
+
+.btn-sign-in,
+.btn-sign-up {
+  background: #b941ff;
+  border-radius: 7px;
+  padding: 14px 20px;
+  color: #f8f9fa;
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.btn-sign-in:hover,
+.btn-sign-up:hover {
+  transform: scale(0.95);
+}
+
+.icon__container {
+  margin-left: -2.5rem;
+}
+
+.admin__password {
+  display: flex;
+  align-items: center;
+}
+
+.profile__icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  /* color: rgba(0, 0, 0, 0.623); */
+  color: #000;
+}
+
+/* Admin Header Styling */
+.admin__home--nav {
+  height: 80px;
+  border-bottom: 1px solid #ccc;
+  padding: 40px;
+}
+
+.admin--ul {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 50px;
+}
+
+.admin__profile--flex,
+.admin__profile--flex p {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.admin__profile--flex p {
+  gap: 7px;
+  font-size: 15px;
+}
+
+.admin__logout {
+  cursor: pointer;
+}
+
+.admin__nav-item {
+  transition: all ease-in-out 0.5s;
+}
+
+.admin__nav-item:hover {
+  color: #035492;
+  transform: scale(0.95);
+}
+
+/* Admin Edit Blog Insight*/
+.radio__container {
+  width: 60%;
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+  margin: 30px 0;
+}
+
+.react-tag-input__input {
+  font-size: 12px !important;
+  /* font-family: "Euclid Circular A Regular" !important; */
+}
+
+/* .react-tag-input__tag__content {
+  font-family: "Euclid Circular A Regular" !important;
+} */
+
+.radio__container p {
+  font-size: 15px;
+}
+
+.radio--child {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+/* input[type='file'] {
+    font-family: "Euclid Circular A Regular";
+
+} */
+
+.form-check-label {
+  font-family: "Euclid Circular A Regular";
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.catg-dropdown {
+  outline: none;
+  resize: none;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.upload__insight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Dashboard Styling */
+.double__grid {
+  background: #1b1c31;
+  display: flex;
+  flex-direction: column;
+}
+
+.double__grid--right {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #efecec;
+}
+
+.double__grid--left {
+  display: flex;
+  gap: 30px;
+  height: 100%;
+  padding: 100px 80px;
+}
+
+.number--blog {
+  padding: 20px;
+  /* background-color: #fff; */
+  color: #000;
+  width: 35%;
+  border-radius: 7px;
+  border: 1px solid #ccc;
+}
+
+.number--blog h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.total__blog,
+.total__mail {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.dashboard__icon {
+  width: 30px;
+  height: 30px;
+}
+
+.total__blog p,
+.total__mail p {
+  font-size: 20px;
+}
+
+.trending {
+  color: #000;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+  .auth__container {
+    padding: 40px 20px;
+  }
+
+  .auth__container h2 {
+    font-size: 21px;
+  }
+
+  .auth__form {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .auth__divide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 0;
+  }
+
+  .auth__input {
+    width: 100%;
+  }
+
+  .auth__input--big {
+    width: 100%;
+  }
+
+  .btn-sign-in,
+  .btn-sign-up {
+    display: block !important;
+    padding: 14px 24px;
+    font-size: 13px;
+    width: 100%;
+    margin: 13px 0;
+  }
+
+  .icon__container {
+    display: block !important;
+  }
+
+  .profile__icon {
+    width: 17px;
+    height: 17px;
+  }
+
+  /* Admin Header Styling */
+  .admin__home--nav {
+    height: fit-content;
+    padding: 10px 20px;
+  }
+
+  .admin--ul {
+    display: block;
+    padding: 0;
+  }
+
+  .admin__profile--flex,
+  .admin__profile--flex p {
+    display: block;
+    gap: 0;
+  }
+
+  .admin__profile--flex p {
+    display: flex;
+    gap: 7px;
+    font-size: 14px;
+  }
+
+  .admin__nav-item {
+    margin-bottom: 10px;
+    transition: all ease-in-out 0.5s;
+  }
+
+  /* Admin Edit Blog Insight*/
+  .radio__container {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    margin: 20px 0;
+  }
+
+  .radio__container p {
+    font-size: 14px;
+  }
+
+  .radio--child {
+    gap: 12px;
+  }
+
+  .catg-dropdown {
+    padding: 10px;
+    font-size: 13px;
+    margin: 0 0 10px 0;
+  }
+/* 
+  .double__grid--left {
+    display: block;
+  } */
+
+  .double__grid--right {
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    border-bottom: 1px solid #efecec;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .double__grid--left {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px 20px;
+  }
+
+  .number--blog {
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .number--blog h2 {
+    font-size: 17px;
+    margin-bottom: 13px;
+  }
+
+  .total__blog p,
+  .total__mail p {
+    font-size: 17px;
+  }
+}

@@ -1,0 +1,150 @@
+.movie__banner--container {
+  position: relative;
+  border-radius: 10px;
+  background-image: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.movie__banner--image {
+  height: 650px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.movie__banner--content {
+  position: absolute;
+  top: 50%;
+  margin-left: 25px;
+  padding-right: 20%;
+}
+
+/* TYPOGRAPHY */
+.movie__headline {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.movie__details {
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+
+.movie__para {
+  font-size: 16px;
+}
+
+/* MOVIE ROW STYLING */
+.movie__row--parent {
+  margin-bottom: 40px;
+}
+
+.movies__row--parent {
+  display: flex;
+  align-items: stretch;
+  overflow: auto;
+  margin-top: 4rem;
+}
+
+.movies__row--parent::-webkit-scrollbar {
+  display: none;
+}
+
+.movie__row--children {
+  background-position: center;
+  background-size: cover;
+  padding: 0.5rem;
+  height: 425px;
+  width: 300px;
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie__row--children:not(:last-of-type) {
+  margin-right: 1.5rem;
+}
+
+.movie__row--image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.75) 0%,
+    rgba(0, 0, 0, 0.1875) 50%,
+    rgba(0, 0, 0, 0.75) 100%
+  );
+  border-radius: 10px;
+}
+
+.movie__row--title {
+  font-size: 20px;
+  font-weight: 500;
+  /* margin-left: 20px; */
+}
+
+.movie__row--head {
+  margin-top: 9px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/* Media Query */
+@media screen and (max-width: 700px) {
+  .movie__banner--image {
+    height: 650px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .movie__banner--content {
+    position: absolute;
+    top: 40%;
+    margin-left: 10px;
+    padding-right: 5%;
+  }
+
+  /* TYPOGRAPHY */
+  .movie__headline {
+    font-size: 21px;
+  }
+
+  .movie__details {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .movie__para {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  /* MOVIE ROW STYLING */
+  .movie__row--parent {
+    margin-bottom: 40px;
+  }
+
+  .movies__row--parent {
+    margin-top: 2rem;
+  }
+
+  .movie__row--children {
+    width: 320px;
+  }
+
+  .movie__row--children:not(:last-of-type) {
+    margin-right: 1.2rem;
+  }
+
+  .movie__row--title {
+    font-size: 17px;
+  }
+
+  .movie__row--head {
+    margin-top: 9px;
+    font-size: 15px;
+    font-weight: 400;
+  }
+}

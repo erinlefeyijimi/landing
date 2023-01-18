@@ -1,0 +1,126 @@
+.community__parent {
+  border-top: 0.5px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.5);
+  margin: 100px 90px;
+  padding: 100px 20px;
+}
+
+.community__container {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  background: radial-gradient(
+    159.2% 1198.12% at -59.2% -32.51%,
+    #42c9ff 0%,
+    #b941ff 100%
+  );
+  padding: 0 20px;
+  border-radius: 5px;
+}
+
+.community__asset,
+.community__content {
+  width: 50%;
+}
+
+.community__asset {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.community__asset--icon {
+  margin-left: 14px;
+}
+
+.community__asset--icon img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.community__content {
+  /* background: url(/src/assets/images/roundCIrcle.svg);
+    background-position: center;
+    background-size: cover; */
+}
+
+@media screen and (max-width: 680px) {
+  .community__parent {
+    margin: 80px 20px;
+    padding: 10px 3px;
+  }
+
+  .community__container {
+    display: block;
+    gap: 80px;
+    padding: 30px 20px;
+  }
+
+  .community__asset,
+  .community__content {
+    width: 100%;
+  }
+
+  .community__asset {
+    justify-content: center;
+    margin-bottom: 25px;
+    gap: 1px;
+  }
+
+  .community__asset--icon {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .community__asset--icon img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .community__asset--phone img{
+    width: 100%;
+  }
+
+  .community__content h3{
+    font-size: 17px;
+  }
+}
+
+
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+    .community__parent {
+        margin: 50px 20px;
+        padding: 50px 20px;
+      }
+      
+      .community__container {
+        gap: 20px;
+        padding: 20px;
+      }
+      
+      .community__asset,
+      .community__content {
+        width: 50%;
+      }
+      
+      .community__asset {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+      }
+      
+      .community__asset--icon {
+        margin-left: 14px;
+        width: 70%;
+      }
+      
+      .community__asset--icon img {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+      .community__content h3{
+        font-size: 17px;
+      }
+}
